@@ -1,0 +1,78 @@
+{
+  "id": "dc20-expanded-class-and-subclass-feature",
+  "title": "DC20 Expanded Class and Subclass Feature",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "TheChosenBlackRing",
+      "flags": {}
+    },
+    {
+      "name": "OnyxStudios",
+      "email": "Onyx1602yt@gmail.com",
+      "url": "https://patreon.com/OnyxStudios?",
+      "discord": "Onyx1602#8924",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "dc20-expansion.js"
+  ],
+  "packs": [
+    {
+      "name": "dc20-expanded-class-feature",
+      "label": "DC20 Expanded Class Feature",
+      "path": "packs/dc20-expanded-class-feature",
+      "type": "Item",
+      "system": "dc20rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dc20-expanded-subclass-feature",
+      "label": "DC20 Expanded Subclass Feature",
+      "path": "packs/dc20-expanded-subclass-feature",
+      "type": "Item",
+      "system": "dc20rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dc20-expanded-companions",
+      "label": "Dc20 Expanded Companions",
+      "path": "packs/dc20-expanded-companions",
+      "type": "Actor",
+      "system": "dc20rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dc20rpg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "dc20-core-rulebook",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<h1>Requires: DC20 Core Rulebook</h1><hr /><p><em><strong>Disclaimer: Fan Made not Official</strong></em></p><p>Ever wanted to level up your DC20 experience well look no further this module contains class and subclass features to level up your players to level 9 and keep on playing your campaign like there's no tommorrow.</p>",
+  "flags": {}
+}
